@@ -3,11 +3,11 @@
 
 ## About this module
 
-This module overrides the `UserGroup.Suggestion` which will improve the behaviour of the {{Single user suggestion}} widget when the attribute {{Group id restriction}} is specified.
+This module overrides the `UserGroup.Suggestion` which will improve the behaviour of the `Single user suggestion` widget when the attribute `Group id restriction` is specified.
 
 ## Why this module
 
-In the default implementation the `UserGroup.Suggestion` operation only returns the users member of the {{Group id restriction}} group. In the new implementation users of sub-groups will also be returned.
+In the default implementation the `UserGroup.Suggestion` operation only returns the users member of the `Group id restriction` group. In the new implementation users of sub-groups will also be returned.
 
 ## Building 
 
