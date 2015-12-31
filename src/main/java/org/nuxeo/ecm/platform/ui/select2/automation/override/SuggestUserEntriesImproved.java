@@ -54,9 +54,9 @@ import org.nuxeo.ecm.platform.usermanager.UserAdapter;
 import org.nuxeo.ecm.platform.usermanager.UserManager;
 
 /**
- * SuggestUser Operation.
+ * Improved SuggestUser Operation.
  *
- * @since 5.7.3
+ * @since 6.0
  */
 @Operation(id = SuggestUserEntriesImproved.ID, category = Constants.CAT_SERVICES, label = "Get user/group suggestion", description = "Get the user/group list of the running instance. This is returning a blob containing a serialized JSON array..", addToStudio = false)
 public class SuggestUserEntriesImproved {
