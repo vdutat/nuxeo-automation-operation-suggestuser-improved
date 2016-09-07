@@ -11,6 +11,7 @@
     <version>6.0</version>
   </parent>
 
+<!-- 
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -22,6 +23,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+ -->
   <dependencies>
     <dependency>
       <groupId>org.nuxeo.common</groupId>
@@ -80,6 +82,7 @@
       <artifactId>commons-collections</artifactId>
     </dependency>
   </dependencies>
+  <!-- 
   <build>
     <plugins>
       <plugin>
@@ -153,4 +156,5 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+   -->
 </project>
